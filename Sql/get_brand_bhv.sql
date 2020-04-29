@@ -8,7 +8,7 @@ with sub1 as
     from
         members_will.daily_prd_view_cnt t1
     left join
-        gsshop.product t2
+        product t2
     on
         t1.prd_id = t2.prd_id
     where
